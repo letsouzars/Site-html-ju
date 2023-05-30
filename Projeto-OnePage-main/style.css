@@ -345,7 +345,7 @@ html {
     .endereco-descricao {
         display: flex;
         flex-wrap: wrap;
-        font-size: px;
+        font-size: 18px;
     }
 
     .endereco-nome {
