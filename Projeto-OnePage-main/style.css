@@ -187,6 +187,107 @@ html {
     scroll-behavior: smooth;
 }
 
+/* CSS MOBILE CELULAR */
+@media screen and (max-width: 400px){
+    .container, .conteudo {
+        margin: 0;
+        border: 0;
+        padding: 0;
+    }
+    #nossaComida .container {
+        flex-direction: column;
+    }
+
+    #nossaEquipe .container {
+        flex-direction: column-reverse;
+    }
+    #contato .container {
+        flex-direction: column;
+    }
+
+    .cozinhando, .panela {
+        width: 80vw;
+    }
+
+    .titulo {
+        font-size: 20px;
+    }
+
+    .item {
+        font-size: 8px;
+    }
+
+    #nossaComida, #nossaEquipe {
+        margin: 0 0 25px;
+    }
+
+    #header .container {
+        flex-wrap: wrap;
+    }
+
+    .logo {
+        width: 40vw;
+
+    }
+
+    .nome, .redes, .endereco {
+        padding-bottom: 10px;
+
+    }
+    .amm {
+        font-size: 20px;
+    }
+    
+    .cs {
+        font-size: 20px;
+    }
+
+    .rede-nome {
+        font-size: 18px;
+    }
+    .endereco-descricao {
+        display: flex;
+        flex-wrap: wrap;
+        font-size: 12px;
+    }
+
+    .endereco-nome {
+        font-size: 22px;
+
+    }
+    .endereco {
+        width: 80vw;
+    }
+
+    .prato {
+        margin: 15px;
+    }
+
+    .cardapio {
+        margin: 15px;
+
+    }
+
+    .conteudo {
+        margin-left: 0;
+        margin-right: 0;
+        margin: 0 15px;
+    }
+
+    #header .container img {
+        display: block;
+        margin: 0 30vw;
+
+    }
+
+}
+
+
+/* CSS MOBILE TABLET */
+
+
+
+
 @media screen and (min-width: 401px) and (max-width: 768px) {
     .container, .conteudo {
         margin: 0;
@@ -238,11 +339,12 @@ html {
 
     .rede-nome {
         font-size: 18px;
+        margin-top: 10px;
     }
     .endereco-descricao {
         display: flex;
         flex-wrap: wrap;
-        font-size: 12px;
+        font-size: px;
     }
 
     .endereco-nome {
@@ -274,15 +376,9 @@ html {
 
     }
 
-   
-
-
-
-
-
-
-
-
+    .rede {
+        margin-top: 20px;
+    }
 
 
 }
