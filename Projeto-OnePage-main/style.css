@@ -340,6 +340,7 @@ html {
     .rede-nome {
         font-size: 18px;
         margin-top: 10px;
+        top: 400px;
     }
     .endereco-descricao {
         display: flex;
@@ -348,11 +349,11 @@ html {
     }
 
     .endereco-nome {
-        font-size: 22px;
+        font-size: 30px;
 
     }
     .endereco {
-        width: 80vw;
+        width: 90vw;
     }
 
     .prato {
@@ -376,10 +377,12 @@ html {
 
     }
 
-    .rede {
-        margin-top: 20px;
+   
+    .nome {
+        padding-top: 30px;
     }
-
+    
+    
 
 }
    
